@@ -1,7 +1,5 @@
 package entity;
 
-import javax.servlet.http.PushBuilder;
-
 /**
  * Created with IntelliJ IDEA.
  * User: Administrator
