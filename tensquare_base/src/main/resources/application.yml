@@ -7,9 +7,8 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
     username: root
     password: 123456
-    url: jdbc:mysql://192.168.88.128:3306/tensquare_base?characterEncoding=utf-8?useSSl=false
-  #可写可不写
-  jpa:
+    url: jdbc:mysql://192.168.88.128:3306/tensquare_base?characterEncoding=utf-8
+  jpa:  #可写可不写
     database: mysql
     show-sql: true
     generate-ddl: true

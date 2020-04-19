@@ -1,5 +1,7 @@
 package entity;
 
+import java.io.Serializable;
+
 /**
  * Created with IntelliJ IDEA.
  * User: Administrator
@@ -7,7 +9,7 @@ package entity;
  * Time: 15:44
  * To change this template use File | Settings | File Templates.
  */
-public class ReturnResult {
+public class ReturnResult implements Serializable {
 
     private Integer code;     //是否成功
     private boolean flag;     //返回码
